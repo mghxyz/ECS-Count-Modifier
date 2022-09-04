@@ -4,3 +4,4 @@ Code written with python and boto3 for lambda function to modify number of farga
 You can use it with Api-Gateway or Eventbridge to schedule runnig docker container with change of desired number to any number more than zero.
 and you can then turn them off with change desired number to zero.
 You can specify more than one service with separating them with comma.
+Ive limited the desired task number to 5 but you can change it to any number you want so developer suddenly won't make any costs by a mistake through api you've made with Api-Gateway.
